@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Link} from 'react-router-dom';  
 export default class Land extends Component {
     render() {
         return (
@@ -25,9 +26,7 @@ export default class Land extends Component {
                     </div>
                     <input type="hidden" name="_csrf" value="pE7h5iuG-Mi5_Qy8VAWupSISgHUs6Kyv8-Wk"/>
                     <div class="form-actions">               
-                        <a href="/home">
-                            <span class="span-info">登录</span>
-                        </a>
+                        <Link className="span-info" to='/home'>登录</Link>                  
                         <a id="forgot_password" >忘记密码了?</a>
                     </div>
                     </form>
