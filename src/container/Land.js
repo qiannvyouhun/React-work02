@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {Link} from 'react-router-dom';  
 export default class Land extends Component {
     render() {
+        let {url}=this.props.match
         return (
             <div className="panel">
                 <div class="header">
